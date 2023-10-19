@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lora", serif;
+}
+#input-section {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(61, 61, 61, 0.712), #000000),
+    url("images/booknow1.jpg");
+}
+.input-content {
+  margin-left: 45px;
+  padding-top: 30px;
+}
+.input-content {
+  margin: 0 auto;
+  width: 250px;
+  padding: 60px 60px;
+  color: white;
+  border-radius: 10px;
+}
+.input-content p {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: rgba(84, 84, 84, 0.578);
+}
+label {
+  margin-right: 15px;
+}
+input[type="text"] {
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+input[type="email"] {
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+input[type="tel"] {
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+form :nth-child(5) {
+  margin-bottom: 40px;
+}
+.submit {
+  display: block;
+  width: 110px;
+  margin: 0 45px;
+  padding: 10px 20px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  background-color: #870000;
+}
+.phone {
+  margin-right: 47px;
+}
+.gender {
+  margin-right: 40px;
+}
+label .last-name {
+  margin-left: 60px;
+}
+input.submit {
+  color: white;
+}
