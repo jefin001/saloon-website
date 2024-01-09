@@ -5,6 +5,7 @@
 body {
   font-family: "Lora", serif;
 }
+/* booknow section  */
 #input-section {
   height: 100vh;
   background-position: center;
@@ -78,3 +79,4 @@ label .last-name {
 input.submit {
   color: white;
 }
+/* booknow section end  */

@@ -16,6 +16,7 @@ head {
   background-position: center;
   height: 100vh;
 }
+/* navbar section */
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -92,6 +93,7 @@ head {
 .banner-btn a:hover {
   color: #000;
 }
+/* end of the section */
 
 /* features */
 
@@ -173,7 +175,7 @@ head {
   text-align: initial;
   font-family: sans-serif;
 }
-
+/* features section end  */
 /* service */
 
 #service {
@@ -234,6 +236,7 @@ hr {
   bottom: 40%;
   opacity: 1;
 }
+/* service section end  */
 
 /* testimonials */
 
@@ -283,7 +286,7 @@ hr {
 .testimonial-col:hover {
   transform: translateY(30px);
 }
-
+/* testimonial section end  */
 /* stylists */
 
 #stylists {
@@ -331,6 +334,7 @@ hr {
   margin-left: 8px;
   font-size: 15px;
 }
+/* stylist section end  */
 /* footer */
 
 #footer {
@@ -400,6 +404,8 @@ hr {
   font-size: 10px;
   margin-top: 20px;
 }
+/* footer section end  */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
